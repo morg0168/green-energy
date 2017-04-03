@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Green Energy</title>
+    <link href="./css/main.css" rel="stylesheet">
+    <link href="./fonts/sofia_pro/stylesheet.css" rel="stylesheet">
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    
+</head>
+<body>
+<div class="wrapper">
+
+<header>
+ <!-----------------------
+START CODING NAVBAR
+----------------------->
+   
+   <div class="logo-contain"><a href="#"><img src="img/logo.png" id="logo" alt="logo"></a></div>
+   
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Blog</a></li>
+        </ul>
+    </nav>
+ 
+ 
+ <!-----------------------
+START CODING SLIDE-SHOW
+----------------------->
+  <div class="banner">
+    <div class="box">
+      <div class="mh-image">
+      <!-- 
+      NOTE:
+      Slides switch every 6 seconds. 
+      Every slide is exposed for 5 seconds.
+      The difference of 1 second is planned for 
+      CSS transition fade-in/out, so make sure
+      your div with class "mh-image" has set
+      transition for opacity (with duration 
+      of 1 second and type of easing "ease-out") 
+      in stylesheet.
+      -->
+<!--
+            <figure>
+               <figcaption id="figcap1">Step 1:</figcaption>
+               <figcaption id="figcap2">Get a quote</figcaption>
+              <div id="figimg-contain">
+                <img src="img/quote.png" alt="slide-one-description"/> 
+            </div>
+            </figure>
+-->
+        </div>
+    </div>
+  </div>
+</header> 
+   
+<!-------------------------------------
+START CODING REVEAL-HIDE MAIN-CONTENT
+------------------------------------->
+
+<main>
+  <div class="box clearfix">
+    <h1>What we offer</h1>
+    <ul class="btns">
+<!--
+      <li><span class="btn" id="active">B1<img src="img/wheel-inactive.png" /></span></li>
+      <li><span class="btn">B2<img src="img/wheel-inactive.png" /></span></li>
+      <li><span class="btn">B3<img src="img/wheel-inactive.png" /></span></li>
+-->
+   
+   <li><span class="btn" id="active">B1</span></li>
+      <li><span class="btn">B2</span></li>
+      <li><span class="btn">B3</span></li>
+    </ul>
+    <div class="container">      
+<!--
+        <figure>
+            <img src="http://placehold.it/400x300" />
+            <figcaption id="figcap3">
+             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam dicta quae ex maxime, quia et aliquam est cumque itaque dolore a perspiciatis quis impedit blanditiis iste minus, ut placeat. Quam veniam nostrum, ullam consectetur voluptatum ab id quisquam, provident nesciunt cupiditate possimus facilis ipsum perspiciatis enim fugit harum rerum temporibus!</p>
+            </figcaption>
+        </figure>
+-->
+    </div>
+  </div>
+</main>
+  </div>
+   
+<!-------------------
+START CODING FOOTER
+-------------------->
+   <footer>
+      <div class="footer-contain clearfix">
+       <ul class="social-media">
+           <li><a href="#"><i class="fa fa-facebook fa-2x"></i></a></li>
+           <li><a href="#"><i class="fa fa-twitter fa-2x"></i></a></li>
+           <li><a href="#"><i class="fa fa-instagram fa-2x"></i></a></li>
+           <li><a href="#"><i class="fa fa-github fa-2x"></i></a></li>
+       </ul>
+       
+       <ul>
+           <li>&copy;Smartnest</li>
+           <li>1191 Riversid Dr.</li>
+           <li>(613)637 - 2829</li>
+       </ul>
+       </div>
+   </footer>
+
+   <script src="./libs/jquery-3.2.0.min.js"></script>
+    <script src="./js/main.js"></script>
+    
+</body>
+</html>

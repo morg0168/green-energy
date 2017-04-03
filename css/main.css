@@ -1,0 +1,381 @@
+* {
+    padding:0;
+    margin:0;
+    box-sizing: none;
+}
+
+.clearfix:after {
+   content: " "; /* Older browser do not support empty content */
+   visibility: hidden;
+   display: block;
+   height: 0;
+   clear: both;
+}
+
+img {
+    max-width: 100%;
+}
+
+body {
+    text-align:center;
+    font-size: 0.618rem;
+    max-width: 100rem;
+    margin:0 auto;
+    line-height: 1.4;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.logo-contain {
+    width: 100px;
+    display:inline-block;
+    margin:20px auto;
+    text-align: center;
+}
+
+#logo {
+    max-width:100%;
+}
+
+nav ul li {
+    background-color: #2E444B;
+    margin:0.2rem 0.4rem;
+}
+
+nav ul li a {
+    display:block;
+    color: #BCDDB8;
+    font-family: 'sofia_prolight', sans-serif;
+    padding: 0.7rem;
+    letter-spacing: 0.02rem;     
+}
+
+.banner .box {
+    padding-bottom: 77.19%;
+    background: url("../img/mh-bg.png") no-repeat center center;
+    background-size: 100%;
+    position:relative;
+}
+
+.mh-image {
+    -webkit-transition: opacity 1s; /* Safari */
+    transition: opacity 1s;
+}
+
+#figcap1 {
+    font-size:1.1rem;
+    position:absolute;
+    top:1rem;
+    left:20%;
+    right:20%;
+    color: #2E444B;
+}
+
+#figcap2 {
+    font-size:3rem;
+    position:absolute;
+    top:3rem;
+    left:20%;
+    right:20%;
+    color: #2E444B;
+    font-weight:600;
+}
+
+#figimg-contain {
+    width:20%;
+    position:absolute;
+    bottom:1rem;
+    left:40%;
+    right:40%;
+}
+
+.box h1 {
+    font-size:1.5rem;
+    color: #2E444B;
+}
+
+.btns {
+    width:50%;
+    margin:20px auto;
+}
+
+.btns li {
+    display: inline-block;
+    width: 20%;
+    margin:1rem 2rem 1rem 0;
+}
+
+.btns li:last-child {
+    margin-right:0;
+}
+
+.container {
+    margin: 1.5rem 0.4rem 0 0.4rem;   
+}
+
+#figcap3 {
+    text-align: left;
+    font-family: 'sofia_prolight', sans-serif;
+    margin:auto 5px;
+}
+
+#active {
+    background: url("/img/wheel-active.png") no-repeat center center;
+/*     padding-bottom: 50px;*/
+    background-size: 100%;
+    position:relative;
+    color:transparent;
+}
+
+.btn {
+    background: url("/img/wheel-inactive.png") no-repeat center center;
+    background-size: 100%;
+    position:relative;
+     color:transparent;
+    padding:15px;
+}
+
+.btn:hover {
+    cursor: pointer;
+}
+
+footer {
+    margin-top:100px;
+    padding:50px 0 30px 0;
+    background-color: #2E444B;
+    color: #BCDDB8;
+    font-family: 'sofia_prolight', sans-serif;
+}
+
+footer .social-media {
+    width:50%;
+    margin:20px auto;
+}
+
+footer .social-media li {
+    margin:0 1.25rem 0 0;
+    display:inline;
+    width:calc(25% - 1.25rem + 0.3125rem);
+}
+
+footer .social-media li:last-child {
+    margin-right:0;
+}
+
+footer .social-media li a {
+    display: inline-block;
+    color: #BCDDB8;
+}
+
+@media screen and (min-width: 35rem) and (max-width:60rem) {
+    
+    body {
+        font-size: 1rem;
+    }
+    
+    .logo-contain {
+        width: 150px;
+        display:inline-block;
+        margin:30px auto;
+        text-align: center;
+    }
+    
+    nav ul li {
+        display:inline-block;
+        width:calc(33.3% - 0.8rem);
+        margin:0;
+    }
+    
+    nav ul li a {
+        display:inblock;
+        color: #BCDDB8;
+        font-family: 'sofia_prolight', sans-serif;
+        margin:0;
+        padding: 0.8rem;
+        background-color: #2E444B;
+    }
+    
+    .banner .box {
+        padding-bottom: 65.19%;
+    }
+        
+    #figimg-contain {
+        width:20%;
+        position:absolute;
+        bottom:-1rem;
+        left:40%;
+        right:40%;
+    }
+    
+    .box h1 {
+        font-size:2rem;
+        color: #2E444B;
+        margin-top:3rem;
+    }
+    
+    #figcap1 {
+        font-size:2rem;
+        top:1.5rem;
+    }
+
+    #figcap2 {
+        font-size:4rem;
+        top:5rem;
+        font-weight:800;
+    }
+    
+    .btns li {
+        margin:2rem 1rem 2rem 0;
+    }
+    
+    .container figure img {
+        width:50%;
+        float:left;
+        margin: 0 0.8rem 0 0.8rem;
+    }
+    
+    .container figure figcaption p {
+        margin: 0 0.8rem 0 0;
+    }
+}
+
+@media screen and (min-width: 60rem) {
+
+    body {
+        font-size: 1.618rem;
+        text-align: center;
+    }
+    
+    .wrapper {
+        width:80vw;
+        margin:0 auto; 
+    }
+    
+    header:first-child {
+        text-align:left;
+    }
+        
+    .logo-contain {
+        width: 200px;
+        display:inline-block;
+        margin-left:2rem;
+    }  
+    
+    nav {
+        width:60%;
+        margin-left: 2rem;
+    }
+    
+    nav ul li {
+        display:inline-block;
+        width:calc(33.3% - 1rem);
+        margin:0;
+        text-align: center;
+    }
+    
+    nav ul li a {
+        display:inblock;
+        color: #BCDDB8;
+        font-family: 'sofia_prolight', sans-serif;
+        margin:0;
+        padding: 0.4rem 1rem;
+        background-color: #2E444B;   
+    }
+    
+    .banner .box {
+        padding-bottom: 45.19%;
+    }
+    
+    #figimg-contain {
+        width:20%;
+        position:absolute;
+        top:30%;
+        left:2rem;
+    }
+    
+    .box h1 {
+        font-size:2rem;
+        color: #2E444B;
+        margin-top:3rem;
+    }
+    
+    #figcap1 {
+        font-size:2rem;
+        top:35%;
+        left:30%
+    }
+
+    #figcap2 {
+        font-size:4rem;
+        font-weight:800;
+        top: 42%;
+        left:30%;
+    }
+    
+    .btns {
+        width:10%;
+        margin:1rem 0 0 0;
+        display:block;
+        position:absolute;   
+    }
+    
+    .box {
+        position:relative;
+    }
+    
+    .box h1 {
+        text-align: left;
+        margin-left:2rem;
+    }
+
+    .btns li {
+        margin:1rem 2rem;
+    }
+
+    .btns li:last-child {
+        margin-right:2rem;
+    }
+    
+    .container {
+        width:90%;
+        float:right; 
+    }
+       
+    .container figure img {
+        width:calc(40% - 2rem);
+        float:left;
+        margin: 0 2rem 0 2rem;
+    }
+    
+    .container figure figcaption p {
+        margin: 0 0 0 2rem;
+        font-size:1.2rem;
+    }
+    
+    .footer-contain {
+        width:calc(80vw) ;
+        margin:0 auto;
+        text-align: left;
+        padding-left: 2rem;
+    }
+
+    footer ul {
+        float:left;
+    }
+    
+    footer ul:first-child {
+        display: inline;
+        width:35%;
+        margin-left:2rem;
+    }
+}
