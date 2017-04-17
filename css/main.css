@@ -130,7 +130,7 @@ nav ul li a {
 }
 
 #active {
-    background: url("/img/wheel-active.png") no-repeat center center;
+    background: url("../img/wheel-active.png") no-repeat center center;
 /*     padding-bottom: 50px;*/
     background-size: 100%;
     position:relative;
@@ -138,7 +138,7 @@ nav ul li a {
 }
 
 .btn {
-    background: url("/img/wheel-inactive.png") no-repeat center center;
+    background: url("../img/wheel-inactive.png") no-repeat center center;
     background-size: 100%;
     position:relative;
      color:transparent;
